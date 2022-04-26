@@ -6,13 +6,13 @@ body{
 }
 .pendulo{
     display: flex;
-    border-top: 10px solid black;
+    border-top: 15px solid #daa520;
 }
 .pendulo span{
     display: block;
     width: 3px;
     height: 300px;
-    background-color: black;
+    background-color: #daa520;
     margin: 0 29px;
     position: relative;
     transform-origin: top;
@@ -25,7 +25,7 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #daa520;
     transform: translateX(-50%);
 }
 .pendulo span:first-child{
